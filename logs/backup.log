@@ -1,0 +1,108 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230202_000004-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-02 00:00:05.616087
+Config  : ./MaxGym.co/private/backups/20230202_000004-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230202_000004-MaxGym_co-database.sql.gz         260.4KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230202_120005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-02 12:00:07.457155
+Config  : ./MaxGym.co/private/backups/20230202_120005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230202_120005-MaxGym_co-database.sql.gz         279.5KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230202_180006-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-02 18:00:08.438512
+Config  : ./MaxGym.co/private/backups/20230202_180006-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230202_180006-MaxGym_co-database.sql.gz         286.2KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230203_000005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-03 00:00:06.365945
+Config  : ./MaxGym.co/private/backups/20230203_000005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230203_000005-MaxGym_co-database.sql.gz         305.6KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230203_120004-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-03 12:00:05.568622
+Config  : ./MaxGym.co/private/backups/20230203_120004-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230203_120004-MaxGym_co-database.sql.gz         325.2KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230203_180005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-03 18:00:07.042666
+Config  : ./MaxGym.co/private/backups/20230203_180005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230203_180005-MaxGym_co-database.sql.gz         327.9KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230206_120005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-06 12:00:07.085028
+Config  : ./MaxGym.co/private/backups/20230206_120005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230206_120005-MaxGym_co-database.sql.gz         330.0KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230206_180005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-06 18:00:07.503703
+Config  : ./MaxGym.co/private/backups/20230206_180005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230206_180005-MaxGym_co-database.sql.gz         340.6KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230207_000005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-07 00:00:06.884426
+Config  : ./MaxGym.co/private/backups/20230207_000005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230207_000005-MaxGym_co-database.sql.gz         344.3KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230207_120005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-07 12:00:07.397991
+Config  : ./MaxGym.co/private/backups/20230207_120005-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230207_120005-MaxGym_co-database.sql.gz         347.4KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230207_180004-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-07 18:00:06.500799
+Config  : ./MaxGym.co/private/backups/20230207_180004-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230207_180004-MaxGym_co-database.sql.gz         360.3KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230208_120007-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-08 12:00:10.184011
+Config  : ./MaxGym.co/private/backups/20230208_120007-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230208_120007-MaxGym_co-database.sql.gz         363.4KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230208_180008-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-08 18:00:11.589871
+Config  : ./MaxGym.co/private/backups/20230208_180008-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230208_180008-MaxGym_co-database.sql.gz         365.8KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230209_120006-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-09 12:00:08.524706
+Config  : ./MaxGym.co/private/backups/20230209_120006-MaxGym_co-site_config_backup.json 116.0B
+Database: ./MaxGym.co/private/backups/20230209_120006-MaxGym_co-database.sql.gz         370.9KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230209_180006-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-09 18:00:09.248849
+Config  : ./MaxGym.co/private/backups/20230209_180006-MaxGym_co-site_config_backup.json 183.0B
+Database: ./MaxGym.co/private/backups/20230209_180006-MaxGym_co-database.sql.gz         376.0KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230210_000006-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-10 00:00:08.731138
+Config  : ./MaxGym.co/private/backups/20230210_000006-MaxGym_co-site_config_backup.json 183.0B
+Database: ./MaxGym.co/private/backups/20230210_000006-MaxGym_co-database.sql.gz         395.9KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230210_120003-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-10 12:00:05.157763
+Config  : ./MaxGym.co/private/backups/20230210_120003-MaxGym_co-site_config_backup.json 183.0B
+Database: ./MaxGym.co/private/backups/20230210_120003-MaxGym_co-database.sql.gz         397.8KiB
+Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230210_180005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-10 18:00:06.571961
+Config  : ./MaxGym.co/private/backups/20230210_180005-MaxGym_co-site_config_backup.json 183.0B
+Database: ./MaxGym.co/private/backups/20230210_180005-MaxGym_co-database.sql.gz         401.0KiB
+Backup for Site MaxGym.co has been successfully completed

@@ -1,0 +1,116 @@
+2023-02-01 19:53:27,311 DEBUG cd Gym && python3 -m venv env
+2023-02-01 19:53:31,360 DEBUG cd Gym && /home/rahul/Frappe/Gym/env/bin/python -m pip install --quiet --upgrade pip
+2023-02-01 19:53:34,178 DEBUG cd Gym && /home/rahul/Frappe/Gym/env/bin/python -m pip install --quiet wheel
+2023-02-01 19:53:35,091 LOG Getting frappe
+2023-02-01 19:53:35,092 DEBUG cd Gym/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-02-01 19:53:48,597 LOG Installing frappe
+2023-02-01 19:53:48,597 DEBUG cd /home/rahul/Frappe/Gym && /home/rahul/Frappe/Gym/env/bin/python -m pip install --quiet --upgrade -e /home/rahul/Frappe/Gym/apps/frappe 
+2023-02-01 19:54:34,627 DEBUG cd /home/rahul/Frappe/Gym/apps/frappe && yarn install
+2023-02-01 19:54:41,678 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-02-01 19:54:41,678 DEBUG cd Gym && bench build
+2023-02-01 19:54:41,807 INFO /usr/local/bin/bench build
+2023-02-01 19:55:07,882 LOG setting up backups
+2023-02-01 19:55:07,896 LOG backups were set up
+2023-02-01 19:55:07,896 INFO Bench Gym initialized
+2023-02-01 19:55:08,383 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-01 20:04:05,181 INFO /usr/local/bin/bench new-site MaxGym
+2023-02-01 20:04:10,732 INFO /usr/local/bin/bench new-site MaxGym.co
+2023-02-01 20:05:10,908 INFO /usr/local/bin/bench new-app MaxGym
+2023-02-01 20:05:10,913 LOG creating new app maxgym
+2023-02-01 20:05:34,138 LOG Installing maxgym
+2023-02-01 20:05:34,138 DEBUG cd /home/rahul/Frappe/Gym && /home/rahul/Frappe/Gym/env/bin/python -m pip install --quiet --upgrade -e /home/rahul/Frappe/Gym/apps/maxgym 
+2023-02-01 20:05:36,149 DEBUG bench build --app maxgym
+2023-02-01 20:05:36,280 INFO /usr/local/bin/bench build --app maxgym
+2023-02-01 20:05:41,805 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-02-01 20:05:42,183 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-01 20:06:54,965 INFO /usr/local/bin/bench use MaxGym.co
+2023-02-01 20:07:37,126 INFO /usr/local/bin/bench --site MaxGym install-app maxgym
+2023-02-01 20:07:47,302 INFO /usr/local/bin/bench --site MaxGym.co install-app maxgym
+2023-02-01 20:08:37,810 INFO /usr/local/bin/bench set-config developer_mode 1
+2023-02-01 20:08:49,830 INFO /usr/local/bin/bench start
+2023-02-01 20:08:50,273 INFO /usr/local/bin/bench serve --port 8000
+2023-02-01 20:08:50,273 INFO /usr/local/bin/bench worker
+2023-02-01 20:08:50,298 INFO /usr/local/bin/bench schedule
+2023-02-01 20:08:50,362 INFO /usr/local/bin/bench watch
+2023-02-02 00:00:01,472 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 11:21:33,440 INFO /usr/local/bin/bench mariba
+2023-02-02 11:21:37,642 INFO /usr/local/bin/bench mariadb
+2023-02-02 11:23:50,848 INFO /usr/local/bin/bench mariadb
+2023-02-02 11:25:34,310 INFO /usr/local/bin/bench start
+2023-02-02 11:25:34,766 INFO /usr/local/bin/bench schedule
+2023-02-02 11:25:34,834 INFO /usr/local/bin/bench watch
+2023-02-02 11:25:34,855 INFO /usr/local/bin/bench serve --port 8000
+2023-02-02 11:25:34,871 INFO /usr/local/bin/bench worker
+2023-02-02 12:00:01,525 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 18:00:02,293 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 18:24:43,229 INFO /usr/local/bin/bench --version
+2023-02-02 18:25:28,118 INFO /usr/local/bin/bench start
+2023-02-02 18:25:28,764 INFO /usr/local/bin/bench schedule
+2023-02-02 18:25:28,772 INFO /usr/local/bin/bench watch
+2023-02-02 18:25:28,789 INFO /usr/local/bin/bench worker
+2023-02-02 18:25:28,790 INFO /usr/local/bin/bench serve --port 8000
+2023-02-02 18:36:46,297 INFO /usr/local/bin/bench --version
+2023-02-02 18:36:49,567 INFO /usr/local/bin/bench start
+2023-02-02 18:36:50,178 INFO /usr/local/bin/bench serve --port 8000
+2023-02-02 18:36:50,182 INFO /usr/local/bin/bench watch
+2023-02-02 18:36:50,229 INFO /usr/local/bin/bench schedule
+2023-02-02 18:36:50,291 INFO /usr/local/bin/bench worker
+2023-02-02 20:12:22,580 INFO /usr/local/bin/bench mariadb
+2023-02-02 20:13:16,564 INFO /usr/local/bin/bench start
+2023-02-02 20:13:17,219 INFO /usr/local/bin/bench watch
+2023-02-02 20:13:17,237 INFO /usr/local/bin/bench worker
+2023-02-02 20:13:17,246 INFO /usr/local/bin/bench serve --port 8000
+2023-02-02 20:13:17,290 INFO /usr/local/bin/bench schedule
+2023-02-02 20:13:43,275 INFO /usr/local/bin/bench mariadb
+2023-02-02 20:16:43,079 INFO /usr/local/bin/bench
+2023-02-02 20:16:48,545 INFO /usr/local/bin/bench mariadb
+2023-02-02 20:59:44,471 INFO /usr/local/bin/bench mariadb
+2023-02-03 00:00:02,299 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-03 10:23:16,146 INFO /usr/local/bin/bench mariadb
+2023-02-03 10:24:04,225 INFO /usr/local/bin/bench mariadb
+2023-02-03 10:24:19,780 INFO /usr/local/bin/bench mariadb
+2023-02-03 10:27:07,362 INFO /usr/local/bin/bench mariadb
+2023-02-03 10:32:30,345 INFO /usr/local/bin/bench mariadb
+2023-02-03 10:38:57,938 INFO /usr/local/bin/bench mariadb
+2023-02-03 12:00:01,407 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-03 18:00:02,196 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-06 12:00:01,817 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-06 13:09:17,734 INFO /usr/local/bin/bench start
+2023-02-06 13:09:18,333 INFO /usr/local/bin/bench worker
+2023-02-06 13:09:18,352 INFO /usr/local/bin/bench serve --port 8000
+2023-02-06 13:09:18,409 INFO /usr/local/bin/bench schedule
+2023-02-06 13:09:18,447 INFO /usr/local/bin/bench watch
+2023-02-06 14:02:58,318 INFO /usr/local/bin/bench start
+2023-02-06 14:02:58,877 INFO /usr/local/bin/bench worker
+2023-02-06 14:02:58,962 INFO /usr/local/bin/bench serve --port 8000
+2023-02-06 14:02:58,983 INFO /usr/local/bin/bench schedule
+2023-02-06 14:02:58,989 INFO /usr/local/bin/bench watch
+2023-02-06 14:53:48,653 INFO /usr/local/bin/bench mariadb
+2023-02-06 15:25:57,026 INFO /usr/local/bin/bench
+2023-02-06 15:26:29,361 INFO /usr/local/bin/bench mariadb
+2023-02-06 18:00:02,047 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 00:00:01,617 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 12:00:01,952 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 18:00:01,349 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-08 12:00:01,500 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-08 18:00:01,962 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 12:00:01,920 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 15:56:39,755 INFO /usr/local/bin/bench mariadn
+2023-02-09 15:56:43,976 INFO /usr/local/bin/bench mariadb
+2023-02-09 16:00:34,716 INFO /usr/local/bin/bench mariadn
+2023-02-09 18:00:02,041 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 18:28:36,768 INFO /usr/local/bin/bench mariadb
+2023-02-09 19:48:00,081 INFO /usr/local/bin/bench mariadb
+2023-02-10 00:00:02,372 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-10 10:06:18,149 INFO /usr/local/bin/bench start
+2023-02-10 10:06:18,732 INFO /usr/local/bin/bench serve --port 8000
+2023-02-10 10:06:18,802 INFO /usr/local/bin/bench worker
+2023-02-10 10:06:18,800 INFO /usr/local/bin/bench schedule
+2023-02-10 10:06:18,860 INFO /usr/local/bin/bench watch
+2023-02-10 10:10:12,408 INFO /usr/local/bin/bench start
+2023-02-10 10:10:13,100 INFO /usr/local/bin/bench watch
+2023-02-10 10:10:13,126 INFO /usr/local/bin/bench worker
+2023-02-10 10:10:13,133 INFO /usr/local/bin/bench schedule
+2023-02-10 10:10:13,210 INFO /usr/local/bin/bench serve --port 8000
+2023-02-10 12:00:01,605 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-10 18:00:01,998 INFO /usr/local/bin/bench --verbose --site all backup
