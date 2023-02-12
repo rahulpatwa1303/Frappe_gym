@@ -1,0 +1,21 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.0.0-dev"
+    },
+    "asia21": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "810be52845fafa415c36a2980ce919e2844dbf93",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}
