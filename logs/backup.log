@@ -106,3 +106,9 @@ Backup Summary for MaxGym.co at 2023-02-10 18:00:06.571961
 Config  : ./MaxGym.co/private/backups/20230210_180005-MaxGym_co-site_config_backup.json 183.0B
 Database: ./MaxGym.co/private/backups/20230210_180005-MaxGym_co-database.sql.gz         401.0KiB
 Backup for Site MaxGym.co has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4064fd4a2afe5cf5 -p********** _4064fd4a2afe5cf5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./MaxGym.co/private/backups/20230211_000005-MaxGym_co-database.sql.gz
+
+Backup Summary for MaxGym.co at 2023-02-11 00:00:07.251107
+Config  : ./MaxGym.co/private/backups/20230211_000005-MaxGym_co-site_config_backup.json 183.0B
+Database: ./MaxGym.co/private/backups/20230211_000005-MaxGym_co-database.sql.gz         403.6KiB
+Backup for Site MaxGym.co has been successfully completed
