@@ -2058,3 +2058,529 @@
 10:09:31 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
 10:10:24 Warm shut down requested
 10:10:24 Unsubscribing from channel rq:pubsub:5b92120d557740aa938139cdff7ce9eb
+13:38:09 Worker rq:worker:34f985f9b4e8408da874d79dec638264: started, version 1.11.1
+13:38:09 Subscribing to channel rq:pubsub:34f985f9b4e8408da874d79dec638264
+13:38:09 *** Listening on home-rahul-Frappe-Asia21:short, home-rahul-Frappe-Asia21:default, home-rahul-Frappe-Asia21:long...
+13:38:09 Cleaning registries for queue: home-rahul-Frappe-Asia21:short
+13:38:09 Cleaning registries for queue: home-rahul-Frappe-Asia21:default
+13:38:09 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
+13:39:09 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (19f3ecc5-b203-4738-888d-6adbe6af1216)
+13:39:10 home-rahul-Frappe-Asia21:default: Job OK (19f3ecc5-b203-4738-888d-6adbe6af1216)
+13:39:10 Result is kept for 600 seconds
+13:39:10 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9e7c18f8-3a5a-4389-89e6-a52511da2508)
+13:39:10 home-rahul-Frappe-Asia21:default: Job OK (9e7c18f8-3a5a-4389-89e6-a52511da2508)
+13:39:10 Result is kept for 600 seconds
+13:39:10 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (34c8c652-fc0c-4b5c-be00-5040cd07a7e7)
+13:39:11 home-rahul-Frappe-Asia21:default: Job OK (34c8c652-fc0c-4b5c-be00-5040cd07a7e7)
+13:39:11 Result is kept for 600 seconds
+13:39:11 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (77bf33fc-2ffb-4ede-9bab-159ec8064276)
+13:39:11 home-rahul-Frappe-Asia21:default: Job OK (77bf33fc-2ffb-4ede-9bab-159ec8064276)
+13:39:11 Result is kept for 600 seconds
+13:39:11 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (64d68cff-67b3-4759-8533-8bfb4042145e)
+13:39:12 home-rahul-Frappe-Asia21:default: Job OK (64d68cff-67b3-4759-8533-8bfb4042145e)
+13:39:12 Result is kept for 600 seconds
+13:39:12 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (be79f0cc-9b57-48f8-aef1-d099367d9b00)
+13:39:12 home-rahul-Frappe-Asia21:default: Job OK (be79f0cc-9b57-48f8-aef1-d099367d9b00)
+13:39:12 Result is kept for 600 seconds
+13:39:12 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.error.collect_error_snapshots'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (79db1102-c3c4-438a-a458-00bb037c773a)
+13:39:13 home-rahul-Frappe-Asia21:default: Job OK (79db1102-c3c4-438a-a458-00bb037c773a)
+13:39:13 Result is kept for 600 seconds
+13:39:13 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (5450e4f1-6959-4a80-ac86-9dacec23b028)
+13:39:13 home-rahul-Frappe-Asia21:default: Job OK (5450e4f1-6959-4a80-ac86-9dacec23b028)
+13:39:13 Result is kept for 600 seconds
+13:39:13 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (41bfa0c4-133b-48c3-aec4-ec570f0a49e2)
+13:39:14 home-rahul-Frappe-Asia21:default: Job OK (41bfa0c4-133b-48c3-aec4-ec570f0a49e2)
+13:39:14 Result is kept for 600 seconds
+13:39:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9314fd6c-8d1b-41e7-b788-3e8e71fe806d)
+13:39:14 home-rahul-Frappe-Asia21:default: Job OK (9314fd6c-8d1b-41e7-b788-3e8e71fe806d)
+13:39:14 Result is kept for 600 seconds
+13:39:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (5d5b8bd0-0353-4565-9314-aff00594e883)
+13:39:14 home-rahul-Frappe-Asia21:default: Job OK (5d5b8bd0-0353-4565-9314-aff00594e883)
+13:39:14 Result is kept for 600 seconds
+13:39:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (c9ee8039-1ba5-4539-a0f0-a1a5300e3362)
+13:39:15 home-rahul-Frappe-Asia21:default: Job OK (c9ee8039-1ba5-4539-a0f0-a1a5300e3362)
+13:39:15 Result is kept for 600 seconds
+13:39:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b1f6f254-0416-4cb9-9a29-562766abeffb)
+13:39:15 home-rahul-Frappe-Asia21:default: Job OK (b1f6f254-0416-4cb9-9a29-562766abeffb)
+13:39:15 Result is kept for 600 seconds
+13:39:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (e7e3c351-989e-482a-8ea5-e2b08d3281b2)
+13:39:15 home-rahul-Frappe-Asia21:default: Job OK (e7e3c351-989e-482a-8ea5-e2b08d3281b2)
+13:39:15 Result is kept for 600 seconds
+13:39:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b9b81436-1efc-4e0c-b0f6-decd94a9bf6d)
+13:39:16 home-rahul-Frappe-Asia21:default: Job OK (b9b81436-1efc-4e0c-b0f6-decd94a9bf6d)
+13:39:16 Result is kept for 600 seconds
+13:39:16 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (0b24818f-b4f9-4deb-802f-101062c31299)
+13:39:16 home-rahul-Frappe-Asia21:default: Job OK (0b24818f-b4f9-4deb-802f-101062c31299)
+13:39:16 Result is kept for 600 seconds
+13:39:17 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f60f3e93-cacc-4b7f-ba3f-42502b673b68)
+13:39:17 home-rahul-Frappe-Asia21:default: Job OK (f60f3e93-cacc-4b7f-ba3f-42502b673b68)
+13:39:17 Result is kept for 600 seconds
+13:40:10 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8f80bc80-3a55-4388-a660-885f23613259)
+13:40:10 home-rahul-Frappe-Asia21:default: Job OK (8f80bc80-3a55-4388-a660-885f23613259)
+13:40:10 Result is kept for 600 seconds
+13:40:10 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (418e624b-937e-4479-9c25-55b41742c1f4)
+13:40:10 home-rahul-Frappe-Asia21:default: Job OK (418e624b-937e-4479-9c25-55b41742c1f4)
+13:40:10 Result is kept for 600 seconds
+13:40:10 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (37a8d79b-1a65-478c-8f52-6b99909bfcb4)
+13:40:11 home-rahul-Frappe-Asia21:default: Job OK (37a8d79b-1a65-478c-8f52-6b99909bfcb4)
+13:40:11 Result is kept for 600 seconds
+13:40:11 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3eceb3cf-c3fa-4004-a6da-00b2d8610735)
+13:40:11 home-rahul-Frappe-Asia21:default: Job OK (3eceb3cf-c3fa-4004-a6da-00b2d8610735)
+13:40:11 Result is kept for 600 seconds
+13:40:11 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8f16aca5-b7cd-4941-805a-e7af3e0b6004)
+13:40:12 home-rahul-Frappe-Asia21:default: Job OK (8f16aca5-b7cd-4941-805a-e7af3e0b6004)
+13:40:12 Result is kept for 600 seconds
+13:41:13 Warm shut down requested
+13:41:13 Unsubscribing from channel rq:pubsub:34f985f9b4e8408da874d79dec638264
+13:41:17 Worker rq:worker:fdde6d48b36b40aaa1a00ad92745ccf7: started, version 1.11.1
+13:41:17 Subscribing to channel rq:pubsub:fdde6d48b36b40aaa1a00ad92745ccf7
+13:41:17 *** Listening on home-rahul-Frappe-Asia21:short, home-rahul-Frappe-Asia21:default, home-rahul-Frappe-Asia21:long...
+13:41:17 Cleaning registries for queue: home-rahul-Frappe-Asia21:short
+13:41:17 Cleaning registries for queue: home-rahul-Frappe-Asia21:default
+13:41:17 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
+13:42:37 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.document.execute_action', kwargs={'__doctype': 'DocType', '__name': 'Trade Mail', '__action': '_rename', 'na..., method='frappe.model.document.execute_action', site='asia21.in', user='Administrator') (c858d6db-a90b-42f4-9e40-6d7e27c52412)
+13:42:38 home-rahul-Frappe-Asia21:default: Job OK (c858d6db-a90b-42f4-9e40-6d7e27c52412)
+13:42:38 Result is kept for 600 seconds
+13:42:38 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.utils.global_search.rebuild_for_doctype', kwargs={'doctype': 'DocType'}, method='frappe.utils.global_search.rebuild_for_doctype', site='asia21.in', user='Administrator') (7d782ff9-1710-40e5-b8ce-963cd25174ef)
+13:42:38 home-rahul-Frappe-Asia21:default: Job OK (7d782ff9-1710-40e5-b8ce-963cd25174ef)
+13:42:38 Result is kept for 600 seconds
+13:44:18 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (d6cef4ff-0714-42eb-8c59-58868fe93027)
+13:44:18 home-rahul-Frappe-Asia21:default: Job OK (d6cef4ff-0714-42eb-8c59-58868fe93027)
+13:44:18 Result is kept for 600 seconds
+13:44:18 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (e8e7bfd3-bd74-4360-8222-69fe2e10471b)
+13:44:19 home-rahul-Frappe-Asia21:default: Job OK (e8e7bfd3-bd74-4360-8222-69fe2e10471b)
+13:44:19 Result is kept for 600 seconds
+13:44:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (fc448a9a-5880-49d2-8421-9343a1f7716d)
+13:44:19 home-rahul-Frappe-Asia21:default: Job OK (fc448a9a-5880-49d2-8421-9343a1f7716d)
+13:44:19 Result is kept for 600 seconds
+13:44:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b7807480-db12-4f32-a239-bd68cb9ab85c)
+13:44:19 home-rahul-Frappe-Asia21:default: Job OK (b7807480-db12-4f32-a239-bd68cb9ab85c)
+13:44:19 Result is kept for 600 seconds
+13:44:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (27c6c72c-0d7a-4ad1-bb52-ad1ce21ab773)
+13:44:20 home-rahul-Frappe-Asia21:default: Job OK (27c6c72c-0d7a-4ad1-bb52-ad1ce21ab773)
+13:44:20 Result is kept for 600 seconds
+13:45:18 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b26461ba-0c8c-48b6-a148-7052fe83d389)
+13:45:19 home-rahul-Frappe-Asia21:default: Job OK (b26461ba-0c8c-48b6-a148-7052fe83d389)
+13:45:19 Result is kept for 600 seconds
+13:45:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (88987cbc-88cd-4dc7-b24e-28bee393bd44)
+13:45:19 home-rahul-Frappe-Asia21:default: Job OK (88987cbc-88cd-4dc7-b24e-28bee393bd44)
+13:45:19 Result is kept for 600 seconds
+13:45:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (356f4895-e873-48a7-9a9b-eb827067e65d)
+13:45:20 home-rahul-Frappe-Asia21:default: Job OK (356f4895-e873-48a7-9a9b-eb827067e65d)
+13:45:20 Result is kept for 600 seconds
+13:48:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (d5ba74bf-905d-4bb3-a5d0-71ac3d9b1c9f)
+13:48:19 home-rahul-Frappe-Asia21:default: Job OK (d5ba74bf-905d-4bb3-a5d0-71ac3d9b1c9f)
+13:48:19 Result is kept for 600 seconds
+13:48:20 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8bfead78-4a9c-473b-bded-89f46cc3c776)
+13:48:20 home-rahul-Frappe-Asia21:default: Job OK (8bfead78-4a9c-473b-bded-89f46cc3c776)
+13:48:20 Result is kept for 600 seconds
+13:48:20 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3a12436a-6185-4bd7-9941-5780c37cd1c0)
+13:48:20 home-rahul-Frappe-Asia21:default: Job OK (3a12436a-6185-4bd7-9941-5780c37cd1c0)
+13:48:20 Result is kept for 600 seconds
+13:48:20 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (be8a5748-cb39-474e-a8e2-df03876688d7)
+13:48:20 home-rahul-Frappe-Asia21:default: Job OK (be8a5748-cb39-474e-a8e2-df03876688d7)
+13:48:20 Result is kept for 600 seconds
+13:48:20 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (16122bec-dbec-40ba-bacb-009281752941)
+13:48:21 home-rahul-Frappe-Asia21:default: Job OK (16122bec-dbec-40ba-bacb-009281752941)
+13:48:21 Result is kept for 600 seconds
+13:52:20 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ac6a488c-f297-43ba-8c02-a7f0952000c6)
+13:52:21 home-rahul-Frappe-Asia21:default: Job OK (ac6a488c-f297-43ba-8c02-a7f0952000c6)
+13:52:21 Result is kept for 600 seconds
+13:52:21 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (a2ed8e5f-9f23-41f9-94ee-b03aecd7edbd)
+13:52:21 home-rahul-Frappe-Asia21:default: Job OK (a2ed8e5f-9f23-41f9-94ee-b03aecd7edbd)
+13:52:21 Result is kept for 600 seconds
+13:52:21 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (63b37785-d7a3-4975-a60c-8046abcef003)
+13:52:21 home-rahul-Frappe-Asia21:default: Job OK (63b37785-d7a3-4975-a60c-8046abcef003)
+13:52:21 Result is kept for 600 seconds
+13:52:21 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3b016d9b-05c6-434e-a093-decea0935f57)
+13:52:22 home-rahul-Frappe-Asia21:default: Job OK (3b016d9b-05c6-434e-a093-decea0935f57)
+13:52:22 Result is kept for 600 seconds
+13:52:22 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (35ce134d-baf4-4628-b785-662cb17f8888)
+13:52:22 home-rahul-Frappe-Asia21:default: Job OK (35ce134d-baf4-4628-b785-662cb17f8888)
+13:52:22 Result is kept for 600 seconds
+13:55:32 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='<function update_index_for_path at 0x7effd3651480>', kwargs={'path': 'Utils/728dfefc6e'}, method=<function update_index_for_path at 0x7effd3651480>, site='asia21.in', user='Administrator') (2f3a98dd-bf47-4f57-85fa-8fcbf76a729a)
+13:55:33 home-rahul-Frappe-Asia21:default: Job OK (2f3a98dd-bf47-4f57-85fa-8fcbf76a729a)
+13:55:33 Result is kept for 600 seconds
+13:56:40 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (7eed525a-6721-4cd2-9ff3-b88ab191a6c7)
+13:56:41 home-rahul-Frappe-Asia21:default: Job OK (7eed525a-6721-4cd2-9ff3-b88ab191a6c7)
+13:56:41 Result is kept for 600 seconds
+13:56:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (02df905d-19e0-4ff2-bfac-b9e54a54191d)
+13:56:41 home-rahul-Frappe-Asia21:default: Job OK (02df905d-19e0-4ff2-bfac-b9e54a54191d)
+13:56:41 Result is kept for 600 seconds
+13:56:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (d470d8fe-7127-4068-b314-b2b85e19e355)
+13:56:41 home-rahul-Frappe-Asia21:default: Job OK (d470d8fe-7127-4068-b314-b2b85e19e355)
+13:56:41 Result is kept for 600 seconds
+13:56:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (0ab1fdda-4a46-4173-b4fa-0c93fc2ba376)
+13:56:42 home-rahul-Frappe-Asia21:default: Job OK (0ab1fdda-4a46-4173-b4fa-0c93fc2ba376)
+13:56:42 Result is kept for 600 seconds
+13:56:42 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (bfd7f529-81b9-4510-8fb7-b345d1240556)
+13:56:42 home-rahul-Frappe-Asia21:default: Job OK (bfd7f529-81b9-4510-8fb7-b345d1240556)
+13:56:42 Result is kept for 600 seconds
+14:00:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (e3f87eb4-5307-4fae-b31c-34a41fe189bf)
+14:00:41 home-rahul-Frappe-Asia21:default: Job OK (e3f87eb4-5307-4fae-b31c-34a41fe189bf)
+14:00:41 Result is kept for 600 seconds
+14:00:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9f0ff49f-374b-44f2-ba33-3e7d329e5aee)
+14:00:42 home-rahul-Frappe-Asia21:default: Job OK (9f0ff49f-374b-44f2-ba33-3e7d329e5aee)
+14:00:42 Result is kept for 600 seconds
+14:00:42 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b7670890-c0be-4785-9190-d0772cff8960)
+14:00:43 home-rahul-Frappe-Asia21:default: Job OK (b7670890-c0be-4785-9190-d0772cff8960)
+14:00:43 Result is kept for 600 seconds
+14:00:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (def162a8-8d76-4dd7-9014-1838b40ec66b)
+14:00:43 home-rahul-Frappe-Asia21:default: Job OK (def162a8-8d76-4dd7-9014-1838b40ec66b)
+14:00:43 Result is kept for 600 seconds
+14:00:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (aa686cc8-d7b1-408d-956a-288157ec1d17)
+14:00:44 home-rahul-Frappe-Asia21:default: Job OK (aa686cc8-d7b1-408d-956a-288157ec1d17)
+14:00:44 Result is kept for 600 seconds
+14:00:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (a4e0307e-d2fd-48c8-a322-3721c0827b9f)
+14:00:44 home-rahul-Frappe-Asia21:default: Job OK (a4e0307e-d2fd-48c8-a322-3721c0827b9f)
+14:00:44 Result is kept for 600 seconds
+14:00:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.error.collect_error_snapshots'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (36f070a9-3f4f-4e5c-baa5-552111d029a1)
+14:00:45 home-rahul-Frappe-Asia21:default: Job OK (36f070a9-3f4f-4e5c-baa5-552111d029a1)
+14:00:45 Result is kept for 600 seconds
+14:00:45 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3e8144a3-44d8-459f-90a7-49cb80e180b9)
+14:00:45 home-rahul-Frappe-Asia21:default: Job OK (3e8144a3-44d8-459f-90a7-49cb80e180b9)
+14:00:45 Result is kept for 600 seconds
+14:00:45 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (e29715c0-984b-450d-9bd3-a62f2354772a)
+14:00:45 home-rahul-Frappe-Asia21:default: Job OK (e29715c0-984b-450d-9bd3-a62f2354772a)
+14:00:46 Result is kept for 600 seconds
+14:00:46 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f94a1d38-d57b-4f2b-8e13-77e839254e2c)
+14:00:46 home-rahul-Frappe-Asia21:default: Job OK (f94a1d38-d57b-4f2b-8e13-77e839254e2c)
+14:00:46 Result is kept for 600 seconds
+14:00:46 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ddabf4fd-b060-4385-82ad-529172daacf4)
+14:00:46 home-rahul-Frappe-Asia21:default: Job OK (ddabf4fd-b060-4385-82ad-529172daacf4)
+14:00:46 Result is kept for 600 seconds
+14:00:46 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (c316e0e1-f667-4ae5-bf9f-a2232667d328)
+14:00:46 home-rahul-Frappe-Asia21:default: Job OK (c316e0e1-f667-4ae5-bf9f-a2232667d328)
+14:00:46 Result is kept for 600 seconds
+14:00:46 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (5b341c73-1726-463e-b754-780d5bb3caf6)
+14:00:47 home-rahul-Frappe-Asia21:default: Job OK (5b341c73-1726-463e-b754-780d5bb3caf6)
+14:00:47 Result is kept for 600 seconds
+14:00:47 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f183d540-d6ec-4722-aab6-dee9931247de)
+14:00:47 home-rahul-Frappe-Asia21:default: Job OK (f183d540-d6ec-4722-aab6-dee9931247de)
+14:00:47 Result is kept for 600 seconds
+14:00:47 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3c1c66c3-07bc-4633-ba94-d7f30118afc7)
+14:00:48 home-rahul-Frappe-Asia21:default: Job OK (3c1c66c3-07bc-4633-ba94-d7f30118afc7)
+14:00:48 Result is kept for 600 seconds
+14:00:48 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (c8c1364f-33b6-4660-9baf-fb09ebe43eb3)
+14:00:48 home-rahul-Frappe-Asia21:default: Job OK (c8c1364f-33b6-4660-9baf-fb09ebe43eb3)
+14:00:48 Result is kept for 600 seconds
+14:00:48 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8ae71b23-89b2-40fc-b434-6bbcf45388ff)
+14:00:49 home-rahul-Frappe-Asia21:default: Job OK (8ae71b23-89b2-40fc-b434-6bbcf45388ff)
+14:00:49 Result is kept for 600 seconds
+14:04:42 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b8213880-c6ad-40e1-84c0-aac39e145e47)
+14:04:42 home-rahul-Frappe-Asia21:default: Job OK (b8213880-c6ad-40e1-84c0-aac39e145e47)
+14:04:42 Result is kept for 600 seconds
+14:04:42 Cleaning registries for queue: home-rahul-Frappe-Asia21:short
+14:04:42 Cleaning registries for queue: home-rahul-Frappe-Asia21:default
+14:04:42 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
+14:04:42 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (793b3844-1479-42c0-88b6-c52b6f9c31c7)
+14:04:42 home-rahul-Frappe-Asia21:default: Job OK (793b3844-1479-42c0-88b6-c52b6f9c31c7)
+14:04:42 Result is kept for 600 seconds
+14:04:42 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (62de6505-8141-4a4c-9cad-222b331ad26e)
+14:04:43 home-rahul-Frappe-Asia21:default: Job OK (62de6505-8141-4a4c-9cad-222b331ad26e)
+14:04:43 Result is kept for 600 seconds
+14:04:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f864ab46-dd90-4082-bba6-a37a0589dcec)
+14:04:43 home-rahul-Frappe-Asia21:default: Job OK (f864ab46-dd90-4082-bba6-a37a0589dcec)
+14:04:43 Result is kept for 600 seconds
+14:04:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (eb57b060-13ac-412d-bfc6-31c16dfc7070)
+14:04:44 home-rahul-Frappe-Asia21:default: Job OK (eb57b060-13ac-412d-bfc6-31c16dfc7070)
+14:04:44 Result is kept for 600 seconds
+14:08:42 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (16c4412b-7817-49a0-b375-32429f296fdf)
+14:08:43 home-rahul-Frappe-Asia21:default: Job OK (16c4412b-7817-49a0-b375-32429f296fdf)
+14:08:43 Result is kept for 600 seconds
+14:08:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (c694c0a7-53de-4f5d-900d-82ecdf061648)
+14:08:43 home-rahul-Frappe-Asia21:default: Job OK (c694c0a7-53de-4f5d-900d-82ecdf061648)
+14:08:43 Result is kept for 600 seconds
+14:08:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (4a95ba4f-23f2-41db-825d-c0cd3b007866)
+14:08:43 home-rahul-Frappe-Asia21:default: Job OK (4a95ba4f-23f2-41db-825d-c0cd3b007866)
+14:08:43 Result is kept for 600 seconds
+14:08:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b689fe52-27df-46f8-8ae1-25a041e52f72)
+14:08:44 home-rahul-Frappe-Asia21:default: Job OK (b689fe52-27df-46f8-8ae1-25a041e52f72)
+14:08:44 Result is kept for 600 seconds
+14:08:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (2617d75a-5afd-4359-a636-4e4236445e91)
+14:08:44 home-rahul-Frappe-Asia21:default: Job OK (2617d75a-5afd-4359-a636-4e4236445e91)
+14:08:44 Result is kept for 600 seconds
+14:12:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b7dfc695-2df6-476f-a4af-6ca967b4a9aa)
+14:12:43 home-rahul-Frappe-Asia21:default: Job OK (b7dfc695-2df6-476f-a4af-6ca967b4a9aa)
+14:12:43 Result is kept for 600 seconds
+14:12:43 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (df92417c-589b-45a1-bf79-dc288ee86888)
+14:12:44 home-rahul-Frappe-Asia21:default: Job OK (df92417c-589b-45a1-bf79-dc288ee86888)
+14:12:44 Result is kept for 600 seconds
+14:12:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f3990d14-2a4d-46b4-9cf2-ca53aad49aaf)
+14:12:44 home-rahul-Frappe-Asia21:default: Job OK (f3990d14-2a4d-46b4-9cf2-ca53aad49aaf)
+14:12:44 Result is kept for 600 seconds
+14:12:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (caa1d767-916c-4396-9e62-985b055c2f4b)
+14:12:45 home-rahul-Frappe-Asia21:default: Job OK (caa1d767-916c-4396-9e62-985b055c2f4b)
+14:12:45 Result is kept for 600 seconds
+14:12:45 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3e90ae88-ab2f-4751-abe0-14e1b68c5ce4)
+14:12:45 home-rahul-Frappe-Asia21:default: Job OK (3e90ae88-ab2f-4751-abe0-14e1b68c5ce4)
+14:12:45 Result is kept for 600 seconds
+14:15:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (e0999508-0e6f-42f8-8ee4-7f5d2462f16a)
+14:15:44 home-rahul-Frappe-Asia21:default: Job OK (e0999508-0e6f-42f8-8ee4-7f5d2462f16a)
+14:15:44 Result is kept for 600 seconds
+14:15:44 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9f194d50-cf05-4eb5-9d5f-319621500fbe)
+14:15:45 home-rahul-Frappe-Asia21:default: Job OK (9f194d50-cf05-4eb5-9d5f-319621500fbe)
+14:15:45 Result is kept for 600 seconds
+14:15:45 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f0462e9d-e26d-45ba-9b19-5f8f28bf5dab)
+14:15:45 home-rahul-Frappe-Asia21:default: Job OK (f0462e9d-e26d-45ba-9b19-5f8f28bf5dab)
+14:15:45 Result is kept for 600 seconds
+17:49:49 Cleaning registries for queue: home-rahul-Frappe-Asia21:short
+17:49:49 Cleaning registries for queue: home-rahul-Frappe-Asia21:default
+17:49:49 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
+17:49:58 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (548d0f0a-9a3e-4b05-be4e-619ebc7c2670)
+17:49:58 home-rahul-Frappe-Asia21:default: Job OK (548d0f0a-9a3e-4b05-be4e-619ebc7c2670)
+17:49:58 Result is kept for 600 seconds
+17:49:58 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (bef4e097-9062-4e20-9643-6e6b9e3b55e7)
+17:50:00 home-rahul-Frappe-Asia21:default: Job OK (bef4e097-9062-4e20-9643-6e6b9e3b55e7)
+17:50:00 Result is kept for 600 seconds
+17:50:00 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9915505f-e835-4230-b25f-85dd017d60df)
+17:50:01 home-rahul-Frappe-Asia21:default: Job OK (9915505f-e835-4230-b25f-85dd017d60df)
+17:50:01 Result is kept for 600 seconds
+17:50:01 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (832b4809-35ea-4c4c-b215-1304e419040c)
+17:50:01 home-rahul-Frappe-Asia21:default: Job OK (832b4809-35ea-4c4c-b215-1304e419040c)
+17:50:01 Result is kept for 600 seconds
+17:50:01 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (fa1ade7e-6d70-4465-98af-148cc2aa3b02)
+17:50:02 home-rahul-Frappe-Asia21:default: Job OK (fa1ade7e-6d70-4465-98af-148cc2aa3b02)
+17:50:02 Result is kept for 600 seconds
+17:50:02 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b0fd51d1-b82d-41ea-8e03-7444132a5550)
+17:50:02 home-rahul-Frappe-Asia21:default: Job OK (b0fd51d1-b82d-41ea-8e03-7444132a5550)
+17:50:02 Result is kept for 600 seconds
+17:50:02 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.error.collect_error_snapshots'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (d956d1c4-02ea-4b93-b7e5-7f2f447f4426)
+17:50:03 home-rahul-Frappe-Asia21:default: Job OK (d956d1c4-02ea-4b93-b7e5-7f2f447f4426)
+17:50:03 Result is kept for 600 seconds
+17:50:03 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (d6ad7256-cc86-4efa-b8d3-6dd1316a1327)
+17:50:03 home-rahul-Frappe-Asia21:default: Job OK (d6ad7256-cc86-4efa-b8d3-6dd1316a1327)
+17:50:03 Result is kept for 600 seconds
+17:50:03 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9da3ab30-420a-44d9-89a8-bcdd5c50f38f)
+17:50:03 home-rahul-Frappe-Asia21:default: Job OK (9da3ab30-420a-44d9-89a8-bcdd5c50f38f)
+17:50:03 Result is kept for 600 seconds
+17:50:03 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (96b92507-127f-4d58-8b43-e9422ef1e342)
+17:50:04 home-rahul-Frappe-Asia21:default: Job OK (96b92507-127f-4d58-8b43-e9422ef1e342)
+17:50:04 Result is kept for 600 seconds
+17:50:04 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ddfcde9b-7494-47e9-a531-9f33c8fd1cef)
+17:50:04 home-rahul-Frappe-Asia21:default: Job OK (ddfcde9b-7494-47e9-a531-9f33c8fd1cef)
+17:50:04 Result is kept for 600 seconds
+17:50:04 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (6fd7032d-d97b-4aea-a7c6-85577e148163)
+17:50:04 home-rahul-Frappe-Asia21:default: Job OK (6fd7032d-d97b-4aea-a7c6-85577e148163)
+17:50:04 Result is kept for 600 seconds
+17:50:04 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (7087be1d-7225-40a5-8dee-9411a39e99f7)
+17:50:05 home-rahul-Frappe-Asia21:default: Job OK (7087be1d-7225-40a5-8dee-9411a39e99f7)
+17:50:05 Result is kept for 600 seconds
+17:50:05 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ae53079d-4d6c-4e81-818b-f9196f19de20)
+17:50:05 home-rahul-Frappe-Asia21:default: Job OK (ae53079d-4d6c-4e81-818b-f9196f19de20)
+17:50:05 Result is kept for 600 seconds
+17:50:05 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (4e32d935-a7bb-491a-bb72-4b43a6fb5531)
+17:50:06 home-rahul-Frappe-Asia21:default: Job OK (4e32d935-a7bb-491a-bb72-4b43a6fb5531)
+17:50:06 Result is kept for 600 seconds
+17:50:06 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (0ccb3266-bfe2-4d7b-b141-9b49490f41d8)
+17:50:06 home-rahul-Frappe-Asia21:default: Job OK (0ccb3266-bfe2-4d7b-b141-9b49490f41d8)
+17:50:06 Result is kept for 600 seconds
+17:50:06 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (bb575489-65c7-4b01-a875-982324e4a56e)
+17:50:07 home-rahul-Frappe-Asia21:default: Job OK (bb575489-65c7-4b01-a875-982324e4a56e)
+17:50:07 Result is kept for 600 seconds
+17:50:11 Warm shut down requested
+17:50:11 Unsubscribing from channel rq:pubsub:fdde6d48b36b40aaa1a00ad92745ccf7
+17:55:33 Worker rq:worker:f4b916c4793d4ffab9439b40d0186922: started, version 1.11.1
+17:55:33 Subscribing to channel rq:pubsub:f4b916c4793d4ffab9439b40d0186922
+17:55:33 *** Listening on home-rahul-Frappe-Asia21:short, home-rahul-Frappe-Asia21:default, home-rahul-Frappe-Asia21:long...
+17:55:33 Cleaning registries for queue: home-rahul-Frappe-Asia21:short
+17:55:33 Cleaning registries for queue: home-rahul-Frappe-Asia21:default
+17:55:33 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
+17:56:34 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (a36eb73b-7147-4ed0-964b-17202795e2bd)
+17:56:34 home-rahul-Frappe-Asia21:default: Job OK (a36eb73b-7147-4ed0-964b-17202795e2bd)
+17:56:34 Result is kept for 600 seconds
+17:56:34 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (92e899c2-fbdb-4675-ae43-4647995173ae)
+17:56:34 home-rahul-Frappe-Asia21:default: Job OK (92e899c2-fbdb-4675-ae43-4647995173ae)
+17:56:34 Result is kept for 600 seconds
+17:56:34 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (545e2cac-07e1-479e-b9d9-7f663499d154)
+17:56:35 home-rahul-Frappe-Asia21:default: Job OK (545e2cac-07e1-479e-b9d9-7f663499d154)
+17:56:35 Result is kept for 600 seconds
+17:56:35 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ff840a37-0cae-4242-820e-30e7acc9e2cb)
+17:56:35 home-rahul-Frappe-Asia21:default: Job OK (ff840a37-0cae-4242-820e-30e7acc9e2cb)
+17:56:35 Result is kept for 600 seconds
+17:56:35 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f7eecaa3-84f5-4af0-aee6-13220b4fa076)
+17:56:35 home-rahul-Frappe-Asia21:default: Job OK (f7eecaa3-84f5-4af0-aee6-13220b4fa076)
+17:56:35 Result is kept for 600 seconds
+18:00:35 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (1f11ff9a-3ffd-4fe4-8dde-89f22b36c66d)
+18:00:35 home-rahul-Frappe-Asia21:default: Job OK (1f11ff9a-3ffd-4fe4-8dde-89f22b36c66d)
+18:00:35 Result is kept for 600 seconds
+18:00:35 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8a0bed6f-35fc-426f-95cd-e4e611b7e7e5)
+18:00:36 home-rahul-Frappe-Asia21:default: Job OK (8a0bed6f-35fc-426f-95cd-e4e611b7e7e5)
+18:00:36 Result is kept for 600 seconds
+18:00:36 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (771b21a3-f71a-4199-9164-8abdab94f139)
+18:00:36 home-rahul-Frappe-Asia21:default: Job OK (771b21a3-f71a-4199-9164-8abdab94f139)
+18:00:36 Result is kept for 600 seconds
+18:00:36 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (c15f29d2-b2b8-4b52-9833-1d897e8bb7e4)
+18:00:36 home-rahul-Frappe-Asia21:default: Job OK (c15f29d2-b2b8-4b52-9833-1d897e8bb7e4)
+18:00:36 Result is kept for 600 seconds
+18:00:36 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (454412cc-4d8a-44f1-92c0-ee2ccb2d5fef)
+18:00:37 home-rahul-Frappe-Asia21:default: Job OK (454412cc-4d8a-44f1-92c0-ee2ccb2d5fef)
+18:00:37 Result is kept for 600 seconds
+18:00:37 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (1a4dd073-e6a1-431a-8445-cb84ef9c4069)
+18:00:37 home-rahul-Frappe-Asia21:default: Job OK (1a4dd073-e6a1-431a-8445-cb84ef9c4069)
+18:00:37 Result is kept for 600 seconds
+18:00:37 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.error.collect_error_snapshots'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8f8dc226-c1dc-4e06-b82d-c7b78b795aa6)
+18:00:38 home-rahul-Frappe-Asia21:default: Job OK (8f8dc226-c1dc-4e06-b82d-c7b78b795aa6)
+18:00:38 Result is kept for 600 seconds
+18:00:38 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (870f3b93-dedc-4110-a3cf-73a3d7f213a7)
+18:00:38 home-rahul-Frappe-Asia21:default: Job OK (870f3b93-dedc-4110-a3cf-73a3d7f213a7)
+18:00:38 Result is kept for 600 seconds
+18:00:38 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (072f8c0d-6d69-4687-ba54-211278d04a1d)
+18:00:38 home-rahul-Frappe-Asia21:default: Job OK (072f8c0d-6d69-4687-ba54-211278d04a1d)
+18:00:38 Result is kept for 600 seconds
+18:00:38 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ec1279f4-a558-4d68-b9c9-dc2930ae6643)
+18:00:39 home-rahul-Frappe-Asia21:default: Job OK (ec1279f4-a558-4d68-b9c9-dc2930ae6643)
+18:00:39 Result is kept for 600 seconds
+18:00:39 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (7d66b3de-c670-467e-91f1-b9628b88a799)
+18:00:39 home-rahul-Frappe-Asia21:default: Job OK (7d66b3de-c670-467e-91f1-b9628b88a799)
+18:00:39 Result is kept for 600 seconds
+18:00:39 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b0362b79-da3a-45ee-8554-26b9132caec1)
+18:00:39 home-rahul-Frappe-Asia21:default: Job OK (b0362b79-da3a-45ee-8554-26b9132caec1)
+18:00:39 Result is kept for 600 seconds
+18:00:39 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (19633a5a-92f5-406a-b601-244dc540c077)
+18:00:40 home-rahul-Frappe-Asia21:default: Job OK (19633a5a-92f5-406a-b601-244dc540c077)
+18:00:40 Result is kept for 600 seconds
+18:00:40 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (8646fee9-0bf5-4317-8c71-1b44975ae6b1)
+18:00:40 home-rahul-Frappe-Asia21:default: Job OK (8646fee9-0bf5-4317-8c71-1b44975ae6b1)
+18:00:40 Result is kept for 600 seconds
+18:00:40 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (3d51d692-bda5-4917-a273-25219626b075)
+18:00:41 home-rahul-Frappe-Asia21:default: Job OK (3d51d692-bda5-4917-a273-25219626b075)
+18:00:41 Result is kept for 600 seconds
+18:00:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b7955fa5-f9ae-4dc9-97ea-60eba3f85b85)
+18:00:41 home-rahul-Frappe-Asia21:default: Job OK (b7955fa5-f9ae-4dc9-97ea-60eba3f85b85)
+18:00:41 Result is kept for 600 seconds
+18:00:41 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (424b9037-4bc9-4364-80aa-9002d034011e)
+18:00:42 home-rahul-Frappe-Asia21:default: Job OK (424b9037-4bc9-4364-80aa-9002d034011e)
+18:00:42 Result is kept for 600 seconds
+18:04:13 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b26f1069-e204-48b6-9ad9-abe978b85e25)
+18:04:14 home-rahul-Frappe-Asia21:default: Job OK (b26f1069-e204-48b6-9ad9-abe978b85e25)
+18:04:14 Result is kept for 600 seconds
+18:04:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (621f28e1-347a-4381-bfce-562ee8e94386)
+18:04:14 home-rahul-Frappe-Asia21:default: Job OK (621f28e1-347a-4381-bfce-562ee8e94386)
+18:04:14 Result is kept for 600 seconds
+18:04:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (32beaba5-8bca-471c-916b-22392abf1fc1)
+18:04:15 home-rahul-Frappe-Asia21:default: Job OK (32beaba5-8bca-471c-916b-22392abf1fc1)
+18:04:15 Result is kept for 600 seconds
+18:04:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (49c540b5-b2c7-4061-9772-252287b2f839)
+18:04:15 home-rahul-Frappe-Asia21:default: Job OK (49c540b5-b2c7-4061-9772-252287b2f839)
+18:04:15 Result is kept for 600 seconds
+18:04:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (d699422c-0fbf-4abb-af40-0d6e87d7d051)
+18:04:16 home-rahul-Frappe-Asia21:default: Job OK (d699422c-0fbf-4abb-af40-0d6e87d7d051)
+18:04:16 Result is kept for 600 seconds
+18:08:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (1b6f40be-0aa5-429e-88ba-2741d1cf4588)
+18:08:14 home-rahul-Frappe-Asia21:default: Job OK (1b6f40be-0aa5-429e-88ba-2741d1cf4588)
+18:08:14 Result is kept for 600 seconds
+18:08:14 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9504d12a-df3d-40ca-958c-9c36788aab09)
+18:08:15 home-rahul-Frappe-Asia21:default: Job OK (9504d12a-df3d-40ca-958c-9c36788aab09)
+18:08:15 Result is kept for 600 seconds
+18:08:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (0d6ce6a3-c4f0-4e59-84a2-515d552bdd46)
+18:08:15 home-rahul-Frappe-Asia21:default: Job OK (0d6ce6a3-c4f0-4e59-84a2-515d552bdd46)
+18:08:15 Result is kept for 600 seconds
+18:08:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f6cffd6f-74fb-4bea-9d47-6670e1626406)
+18:08:15 home-rahul-Frappe-Asia21:default: Job OK (f6cffd6f-74fb-4bea-9d47-6670e1626406)
+18:08:15 Result is kept for 600 seconds
+18:08:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (23c0b3f4-7b4e-4057-b927-ba6625db1662)
+18:08:16 home-rahul-Frappe-Asia21:default: Job OK (23c0b3f4-7b4e-4057-b927-ba6625db1662)
+18:08:16 Result is kept for 600 seconds
+18:12:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (9e61504b-9656-4a41-9fe4-e9fb45026fa5)
+18:12:15 home-rahul-Frappe-Asia21:default: Job OK (9e61504b-9656-4a41-9fe4-e9fb45026fa5)
+18:12:15 Result is kept for 600 seconds
+18:12:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (ae765723-f47d-4d23-982d-663bd469342b)
+18:12:15 home-rahul-Frappe-Asia21:default: Job OK (ae765723-f47d-4d23-982d-663bd469342b)
+18:12:15 Result is kept for 600 seconds
+18:12:15 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (f94df440-7cfd-441a-93c3-ecd5d1477be6)
+18:12:16 home-rahul-Frappe-Asia21:default: Job OK (f94df440-7cfd-441a-93c3-ecd5d1477be6)
+18:12:16 Result is kept for 600 seconds
+18:12:16 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (313e00ca-4247-470f-b080-8cfeeb4a1198)
+18:12:16 home-rahul-Frappe-Asia21:default: Job OK (313e00ca-4247-470f-b080-8cfeeb4a1198)
+18:12:16 Result is kept for 600 seconds
+18:12:16 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='asia21.in', user='Administrator') (b10fe798-3f86-4eb9-8360-5b9738476a04)
+18:12:16 home-rahul-Frappe-Asia21:default: Job OK (b10fe798-3f86-4eb9-8360-5b9738476a04)
+18:12:16 Result is kept for 600 seconds
+18:12:25 Warm shut down requested
+18:12:25 Unsubscribing from channel rq:pubsub:f4b916c4793d4ffab9439b40d0186922
+18:15:38 Worker rq:worker:0db24f3c57c845cda5882f3a341892ca: started, version 1.11.1
+18:15:38 Subscribing to channel rq:pubsub:0db24f3c57c845cda5882f3a341892ca
+18:15:38 *** Listening on home-rahul-Frappe-Asia21:short, home-rahul-Frappe-Asia21:default, home-rahul-Frappe-Asia21:long...
+18:15:38 Cleaning registries for queue: home-rahul-Frappe-Asia21:short
+18:15:38 Cleaning registries for queue: home-rahul-Frappe-Asia21:default
+18:15:38 Cleaning registries for queue: home-rahul-Frappe-Asia21:long
+18:17:19 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.utils.global_search.rebuild_for_doctype', kwargs={'doctype': 'File'}, method='frappe.utils.global_search.rebuild_for_doctype', site='asia21.in', user='Administrator') (7a54212a-b392-408c-8b90-413902d33985)
+18:17:20 home-rahul-Frappe-Asia21:default: Job OK (7a54212a-b392-408c-8b90-413902d33985)
+18:17:20 Result is kept for 600 seconds
+18:17:30 home-rahul-Frappe-Asia21:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='<function generate_report at 0x7f25bb9e3eb0>', kwargs={'prepared_report': '3b956e0202'}, method=<function generate_report at 0x7f25bb9e3eb0>, site='asia21.in', user='Administrator') (6c3cb941-9808-41b3-812f-7d230b56e848)
+18:17:31 home-rahul-Frappe-Asia21:long: Job OK (6c3cb941-9808-41b3-812f-7d230b56e848)
+18:17:31 Result is kept for 600 seconds
+18:17:35 home-rahul-Frappe-Asia21:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='<function generate_report at 0x7f25bb9e3eb0>', kwargs={'prepared_report': '31a2c126f6'}, method=<function generate_report at 0x7f25bb9e3eb0>, site='asia21.in', user='Administrator') (cc39aa78-98d2-42d2-a53b-1ecccd673b5a)
+18:17:36 home-rahul-Frappe-Asia21:long: Job OK (cc39aa78-98d2-42d2-a53b-1ecccd673b5a)
+18:17:36 Result is kept for 600 seconds
+18:17:53 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (a322ad1c-fef7-411b-afff-143a510a29dc)
+18:17:53 home-rahul-Frappe-Asia21:short: Job OK (a322ad1c-fef7-411b-afff-143a510a29dc)
+18:17:53 Result is kept for 600 seconds
+18:17:53 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='<function test_func at 0x7f25bd749480>', kwargs={}, method=<function test_func at 0x7f25bd749480>, site='asia21.in', user='Administrator') (22b729fa-98be-41b6-b2ee-390c8c041186)
+18:17:53 home-rahul-Frappe-Asia21:short: Job OK (22b729fa-98be-41b6-b2ee-390c8c041186)
+18:17:53 Result is kept for 600 seconds
+18:17:53 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'fail': True}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (3ea2bd99-794f-4ae8-bd3a-edadcdc80c9a)
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/background_jobs.py", line 172, in execute_job
+    method(**kwargs)
+  File "apps/frappe/frappe/core/doctype/rq_job/test_rq_job.py", line 107, in test_func
+    42 / 0
+ZeroDivisionError: division by zero
+
+18:17:53 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'sleep': 10}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (9f376013-cecd-4bf2-9877-b078b35685d9)
+18:17:56 Killed horse pid 529941
+18:17:56 Job stopped by user, moving job to FailedJobRegistry
+18:17:57 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'sleep': 10}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (876eb791-2101-4d93-8100-2d71c73be0f2)
+18:17:57 Killed horse pid 529943
+18:17:57 Job stopped by user, moving job to FailedJobRegistry
+18:17:57 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='uniq_test_job', kwargs={}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (4aa25ed0-1e2e-4b87-8fce-e2d954a50a92)
+18:17:57 home-rahul-Frappe-Asia21:short: Job OK (4aa25ed0-1e2e-4b87-8fce-e2d954a50a92)
+18:17:57 Result is kept for 600 seconds
+18:17:57 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'sleep': 1}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (4d89430b-f4a1-407e-aab7-b1c3b0a091f7)
+18:17:58 home-rahul-Frappe-Asia21:default: Job OK (4d89430b-f4a1-407e-aab7-b1c3b0a091f7)
+18:17:58 Result is kept for 600 seconds
+18:17:58 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'sleep': 1}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (cfc10d0f-f891-46ec-bafb-5b5d8a7f7be3)
+18:17:59 home-rahul-Frappe-Asia21:short: Job OK (cfc10d0f-f891-46ec-bafb-5b5d8a7f7be3)
+18:17:59 Result is kept for 600 seconds
+18:17:59 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'sleep': 1}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (19bbcd33-065f-4415-9141-3149b6487e22)
+18:18:00 home-rahul-Frappe-Asia21:short: Job OK (19bbcd33-065f-4415-9141-3149b6487e22)
+18:18:00 Result is kept for 600 seconds
+18:18:00 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={'sleep': 1}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (cd64c5c3-d568-4d5a-ac3a-95de94bc65eb)
+18:18:01 home-rahul-Frappe-Asia21:default: Job OK (cd64c5c3-d568-4d5a-ac3a-95de94bc65eb)
+18:18:01 Result is kept for 600 seconds
+18:18:01 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.rq_job.test_rq_job.test_func', kwargs={}, method='frappe.core.doctype.rq_job.test_rq_job.test_func', site='asia21.in', user='Administrator') (75f476b1-9e86-4107-8504-757af6dc2ecd)
+18:18:01 home-rahul-Frappe-Asia21:short: Job OK (75f476b1-9e86-4107-8504-757af6dc2ecd)
+18:18:01 Result is kept for 600 seconds
+18:18:07 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.document.execute_action', kwargs={'__doctype': 'Submission Queue', '__name': '13f78d07c9', '__action': 'back..., method='frappe.model.document.execute_action', site='asia21.in', user='Administrator') (2f6c2023-65ef-4ea1-ac3a-b82b272d4fe3)
+18:18:07 home-rahul-Frappe-Asia21:default: Job OK (2f6c2023-65ef-4ea1-ac3a-b82b272d4fe3)
+18:18:07 Result is kept for 600 seconds
+18:18:26 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: test@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='asia21.in', user='Administrator') (df3151a1-b310-4c14-a2b2-661c155d346f)
+18:18:27 home-rahul-Frappe-Asia21:default: Job OK (df3151a1-b310-4c14-a2b2-661c155d346f)
+18:18:27 Result is kept for 600 seconds
+18:18:27 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'test@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='asia21.in', user='Administrator') (d2002470-a028-47f7-b4ba-8136fe9b17aa)
+18:18:28 home-rahul-Frappe-Asia21:default: Job OK (d2002470-a028-47f7-b4ba-8136fe9b17aa)
+18:18:28 Result is kept for 600 seconds
+18:18:39 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.utils.global_search.rebuild_for_doctype', kwargs={'doctype': 'Notification Settings'}, method='frappe.utils.global_search.rebuild_for_doctype', site='asia21.in', user='Administrator') (f836a735-3eb8-41b0-b7cb-115567b30b55)
+18:18:39 home-rahul-Frappe-Asia21:default: Job OK (f836a735-3eb8-41b0-b7cb-115567b30b55)
+18:18:39 Result is kept for 600 seconds
+18:18:39 home-rahul-Frappe-Asia21:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.utils.global_search.rebuild_for_doctype', kwargs={'doctype': 'User'}, method='frappe.utils.global_search.rebuild_for_doctype', site='asia21.in', user='Administrator') (19f48e41-726e-4187-996f-f66465d65ba4)
+18:18:40 home-rahul-Frappe-Asia21:default: Job OK (19f48e41-726e-4187-996f-f66465d65ba4)
+18:18:40 Result is kept for 600 seconds
+18:22:49 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.handler.ping', kwargs={}, method='frappe.handler.ping', site='asia21.in', user='Administrator') (06c02814-000d-4e59-9157-8e2248e782b5)
+18:22:49 home-rahul-Frappe-Asia21:short: Job OK (06c02814-000d-4e59-9157-8e2248e782b5)
+18:22:49 Result is kept for 600 seconds
+18:22:49 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.handler.ping', kwargs={}, method='frappe.handler.ping', site='asia21.in', user='Administrator') (683cb01e-e1ac-4781-9e85-016b868baa34)
+18:22:49 home-rahul-Frappe-Asia21:short: Job OK (683cb01e-e1ac-4781-9e85-016b868baa34)
+18:22:49 Result is kept for 600 seconds
+18:22:49 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.handler.ping', kwargs={}, method='frappe.handler.ping', site='asia21.in', user='Administrator') (b9fb5572-ae8f-493e-9db3-7c3b930c91aa)
+18:22:49 home-rahul-Frappe-Asia21:short: Job OK (b9fb5572-ae8f-493e-9db3-7c3b930c91aa)
+18:22:49 Result is kept for 600 seconds
+18:22:49 home-rahul-Frappe-Asia21:short: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.tests.test_background_jobs.fail_function', kwargs={}, method='frappe.tests.test_background_jobs.fail_function', site='asia21.in', user='Administrator') (4ce21635-a387-4d02-bc71-96e46c2638f1)
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/background_jobs.py", line 172, in execute_job
+    method(**kwargs)
+  File "apps/frappe/frappe/tests/test_background_jobs.py", line 49, in fail_function
+    return 1 / 0
+ZeroDivisionError: division by zero
+

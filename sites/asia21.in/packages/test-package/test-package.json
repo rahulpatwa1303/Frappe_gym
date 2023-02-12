@@ -1,0 +1,13 @@
+{
+ "creation": "2023-02-12 18:17:29.309893",
+ "docstatus": 0,
+ "doctype": "Package",
+ "idx": 0,
+ "license_type": "",
+ "modified": "2023-02-12 18:17:29.309893",
+ "modified_by": "Administrator",
+ "name": "Test Package",
+ "owner": "Administrator",
+ "package_name": "test-package",
+ "readme": "# Test Package"
+}

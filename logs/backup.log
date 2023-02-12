@@ -4,3 +4,9 @@ Backup Summary for asia21.in at 2023-02-11 00:00:05.987188
 Config  : ./asia21.in/private/backups/20230211_000004-asia21_in-site_config_backup.json 116.0B
 Database: ./asia21.in/private/backups/20230211_000004-asia21_in-database.sql.gz         252.2KiB
 Backup for Site asia21.in has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2f02480f80eadc39 -p********** _2f02480f80eadc39 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./asia21.in/private/backups/20230212_180005-asia21_in-database.sql.gz
+
+Backup Summary for asia21.in at 2023-02-12 18:00:07.625392
+Config  : ./asia21.in/private/backups/20230212_180005-asia21_in-site_config_backup.json 183.0B
+Database: ./asia21.in/private/backups/20230212_180005-asia21_in-database.sql.gz         289.0KiB
+Backup for Site asia21.in has been successfully completed

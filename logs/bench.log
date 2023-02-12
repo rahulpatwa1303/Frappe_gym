@@ -46,3 +46,37 @@
 2023-02-12 10:09:29,117 INFO /usr/local/bin/bench schedule
 2023-02-12 10:09:29,158 INFO /usr/local/bin/bench watch
 2023-02-12 10:09:29,210 INFO /usr/local/bin/bench serve --port 8001
+2023-02-12 13:38:06,878 INFO /usr/local/bin/bench start
+2023-02-12 13:38:07,305 INFO /usr/local/bin/bench watch
+2023-02-12 13:38:07,321 INFO /usr/local/bin/bench serve --port 8001
+2023-02-12 13:38:07,325 INFO /usr/local/bin/bench worker
+2023-02-12 13:38:07,436 INFO /usr/local/bin/bench schedule
+2023-02-12 13:41:15,020 INFO /usr/local/bin/bench start
+2023-02-12 13:41:15,414 INFO /usr/local/bin/bench watch
+2023-02-12 13:41:15,419 INFO /usr/local/bin/bench serve --port 8001
+2023-02-12 13:41:15,421 INFO /usr/local/bin/bench schedule
+2023-02-12 13:41:15,500 INFO /usr/local/bin/bench worker
+2023-02-12 17:55:30,586 INFO /usr/local/bin/bench start
+2023-02-12 17:55:31,099 INFO /usr/local/bin/bench watch
+2023-02-12 17:55:31,109 INFO /usr/local/bin/bench worker
+2023-02-12 17:55:31,151 INFO /usr/local/bin/bench serve --port 8001
+2023-02-12 17:55:31,231 INFO /usr/local/bin/bench schedule
+2023-02-12 18:00:02,071 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-12 18:12:37,868 INFO /usr/local/bin/bench --site Asia21.in run-tests --app frappe
+2023-02-12 18:12:55,162 INFO /usr/local/bin/bench --site asia21.in run-tests --app frappe
+2023-02-12 18:13:08,355 INFO /usr/local/bin/bench --site asia21.in set-config allow_tests true
+2023-02-12 18:13:12,319 INFO /usr/local/bin/bench --site asia21.in run-tests --app frappe
+2023-02-12 18:13:49,122 INFO /usr/local/bin/bench --site asia21.in run-tests --app frappe
+2023-02-12 18:14:32,229 INFO /usr/local/bin/bench setup production
+2023-02-12 18:14:32,239 WARNING /usr/local/bin/bench setup production executed with exit code 2
+2023-02-12 18:14:37,912 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-12 18:15:35,229 INFO /usr/local/bin/bench start
+2023-02-12 18:15:35,825 INFO /usr/local/bin/bench worker
+2023-02-12 18:15:35,857 INFO /usr/local/bin/bench watch
+2023-02-12 18:15:35,917 INFO /usr/local/bin/bench schedule
+2023-02-12 18:15:35,939 INFO /usr/local/bin/bench serve --port 8001
+2023-02-12 18:16:26,563 INFO /usr/local/bin/bench --site asia21.in run-tests --app frappe
+2023-02-12 18:17:57,474 INFO /usr/local/bin/bench worker --queue short,default --burst
+2023-02-12 18:20:47,572 INFO /usr/local/bin/bench --site asia21.in run-tests --module aisa21.asia21.doctype.registeration.test_registeration.create_user
+2023-02-12 18:21:05,834 INFO /usr/local/bin/bench --site asia21.in run-tests --module aisa21.asia.asia21.doctype.registeration.test_registeration.create_user
+2023-02-12 18:22:58,371 INFO /usr/local/bin/bench new-site commands-site-O4PN2QKA.test --admin-password None --db-type mariadb
